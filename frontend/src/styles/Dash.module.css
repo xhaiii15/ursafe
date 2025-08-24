@@ -1,0 +1,22 @@
+body {
+    background-color: #f0f2f5;
+    color: #333;
+}
+.dashboardContainer {
+    display: flex;
+    height: 640px;
+    overflow: hidden;
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.content {
+    margin-left: 250px; /* same as sidebar width */
+    flex-grow: 1;
+    padding: 20px;
+    background: #ffffff;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
